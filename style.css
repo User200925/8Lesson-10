@@ -1,0 +1,33 @@
+/* Центрирование всего контента на странице */
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;  /* Выравнивание по горизонтали */
+    align-items: center;      /* Выравнивание по вертикали */
+    background-color: #f5f5f5; /* Фоновый цвет страницы (опционально) */
+    font-family: sans-serif;
+  }
+  
+  /* Центрирование внутреннего контента, например текста */
+  .headerContent {
+    text-align: center;
+  }
+  
+  /* Стилизация кнопок */
+  .toast-btn {
+    background-color: #007BFF;           /* Цвет фона кнопки */
+    color: #fff;                         /* Цвет текста кнопки */
+    border: none;
+    padding: 10px 20px;                  /* Внутренние отступы */
+    border-radius: 4px;                  /* Скругленные углы */
+    margin: 10px;                        /* Отступы между кнопками */
+    cursor: pointer;                     /* Курсор при наведении */
+    transition: background-color 0.3s;   /* Плавное изменение цвета при наведении */
+  }
+  
+  .toast-btn:hover {
+    background-color: #0056b3;           /* Цвет фона кнопки при наведении */
+  }
+  
